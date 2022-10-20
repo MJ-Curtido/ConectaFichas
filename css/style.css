@@ -1,0 +1,83 @@
+body {
+    text-align: center;
+}
+
+/*Tabla*/
+.colum {
+    border: 3px solid #d000ff;
+    width: 70px;
+    height: 70px;
+    border-collapse: collapse;
+    text-align: center;
+}
+
+.divBtn {
+    margin: auto;
+}
+
+#tabla {
+    border: 3px solid #d000ff;
+    border-collapse: collapse;
+    margin: auto;
+}
+
+/*Fichas*/
+.fichas {
+    width: 50px;
+    height: 50px;
+}
+
+.fichaTurno {
+    width: 30px;
+    height: 30px; 
+}
+
+#divTurnoFicha {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #d000ff;
+    font-size: x-large;
+}
+
+#divTurnoFichaEscondido {
+    display: none;
+}
+
+/*Contador*/
+#contador {
+    font-size: xx-large;
+    color: #d000ff;
+}
+
+/*Boton*/
+#btn {
+    display: inline-block;
+    padding: 15px 25px;
+    font-size: 24px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    outline: none;
+    color: #fff;
+    background-color: #d000ff;
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 9px #999;
+    margin: 17px;
+    width: 200px;
+}
+
+#btn:hover {
+    background-color: #d000ff
+}
+
+#btn:active {
+    background-color: #bd00e7;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+}
+
+#btnEscondido {
+    display: none;
+}
